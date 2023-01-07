@@ -1,0 +1,8 @@
+train: strawberry/train/images
+val: strawberry/valid/images
+
+# Classes
+names:
+  0: unripe
+  1: partially ripe
+  2: fully ripe
