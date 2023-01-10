@@ -7,7 +7,9 @@ https://colab.research.google.com/drive/1P2ty_B936idQxGEN86P9vS-BEzRbSCJC?usp=sh
 Setup commands:
 git clone https://github.com/saqzari/strawberry_yolo.git
 cd strawberry_yolo
-git lfs pull
+pip install -U --no-cache-dir gdown --pre
+gdown https://drive.google.com/uc?id=1LTTB_U9Mx91Z-wnHdHvkReY-NDjlOrX-
+unzip strawberry_weights.zip
 pip install -qr requirements.txt
 
 Detect command:
